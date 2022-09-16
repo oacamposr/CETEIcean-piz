@@ -1,16 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&family=Montserrat&family=Shadows+Into+Light&display=swap')
+
 body {
   font-size: 12pt;
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 15px;
 }
 
 tei-body {
-  
+  font-size: 12pt;
 }
 
 tei-head {
   display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 150%;
+  margin-bottom: 10px;
 }
 
 tei-p {
+  display: inline;
+  
+}
+
+tei-div {
+  display: block;
+  padding: 10px;
+  break-after: always;
+  background-color: rgb(255, 255, 225);
+  padding-left: 15px;
+}
+
+tei-div[type="manuscrito"] {
+  font-family: 'Amatic SC', cursive;
+  color: rgb(52, 43, 90);
+  font-size: 100%;
+}
+
+tei-div[type="impreso"] {
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold ;
+  color: black;
+  font-size: 80%;
+  
+}
+
+tei-persname {
+  font-variant: small-caps;
+}
+
+tei-foreign {
+  font-style: italic;
+}
+ tei-abbr{
+  display: none;
+ }
+
+ tei-corr{
+  color:  rgb(59, 52, 92);
+  font-weight: bold;
+ }
+
+ tei-hi{
+  color: rgb(57, 0, 80);
+  font-weight: bold;
+ }
+
+ tei-add{
+  color: rgb(59, 52, 92);
+  font-weight: bold;
+ }
+
+ tei-del{
+  color: rgb(83, 81, 92);
+  text-decoration: line-through;
+ }
+ 
+
+tei-lb{
   display: block;
 }
 
+tei-signed{
+  color: brown;
+}
