@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&family=Montserrat&family=Shadows+Into+Light&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inconsolata&family=Indie+Flower&family=Montserrat&family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
 
-body {
+body{
   font-size: 12pt;
   max-width: 500px;
   margin: auto;
@@ -14,6 +14,7 @@ tei-body {
 
 tei-head {
   display: block;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-weight: bold;
   font-size: 150%;
@@ -27,28 +28,28 @@ tei-p {
 
 tei-div {
   display: block;
-  padding: 10px;
+  padding-top: 20px;
   break-after: always;
   background-color: rgb(255, 255, 225);
-  padding-left: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 tei-div[type="manuscrito"] {
-  font-family: 'Amatic SC', cursive;
-  color: rgb(52, 43, 90);
+  font-family: 'Patrick Hand', cursive;
+  color: rgb(63, 48, 131);
   font-size: 100%;
 }
 
 tei-div[type="impreso"] {
-  font-family:'Courier New', Courier, monospace;
-  font-weight: bold ;
+  font-family: 'Inconsolata', monospace;
   color: black;
-  font-size: 80%;
-  
-}
+  font-size: 100%;
+  }
 
 tei-persname {
   font-variant: small-caps;
+  font-size: 120%;
 }
 
 tei-foreign {
@@ -81,6 +82,7 @@ tei-foreign {
 
 tei-lb{
   display: block;
+  white-space: pre;
 }
 
 tei-signed{
